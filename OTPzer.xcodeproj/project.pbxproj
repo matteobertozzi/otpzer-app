@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B0052962AEDBECD00AD96A3 /* OtpRowDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0052952AEDBECD00AD96A3 /* OtpRowDetailView.swift */; };
+		1B98C0102AED54AC0061EEB5 /* OTPzerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B98C00F2AED54AC0061EEB5 /* OTPzerApp.swift */; };
+		1B98C0122AED54AC0061EEB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B98C0112AED54AC0061EEB5 /* ContentView.swift */; };
+		1B98C0162AED54AD0061EEB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B98C0152AED54AD0061EEB5 /* Assets.xcassets */; };
+		1B98C0192AED54AD0061EEB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B98C0182AED54AD0061EEB5 /* Preview Assets.xcassets */; };
+		1B98C0232AED60A60061EEB5 /* OtpRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B98C0222AED60A60061EEB5 /* OtpRowView.swift */; };
+		1B98C0252AED61130061EEB5 /* OtpTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B98C0242AED61130061EEB5 /* OtpTimeView.swift */; };
+		1B98C0272AED6F640061EEB5 /* OtpItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B98C0262AED6F640061EEB5 /* OtpItem.swift */; };
+		1B98C0292AED71050061EEB5 /* Otp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B98C0282AED71050061EEB5 /* Otp.swift */; };
+		1B98C02B2AED75E70061EEB5 /* OtpList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B98C02A2AED75E70061EEB5 /* OtpList.swift */; };
+		1BD592F32AEDAD9800B6788F /* OtpManualAddModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD592F22AEDAD9800B6788F /* OtpManualAddModal.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B0052952AEDBECD00AD96A3 /* OtpRowDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpRowDetailView.swift; sourceTree = "<group>"; };
+		1B98C00C2AED54AC0061EEB5 /* OTPzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTPzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B98C00F2AED54AC0061EEB5 /* OTPzerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPzerApp.swift; sourceTree = "<group>"; };
+		1B98C0112AED54AC0061EEB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1B98C0152AED54AD0061EEB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B98C0182AED54AD0061EEB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B98C01A2AED54AD0061EEB5 /* OTPzer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OTPzer.entitlements; sourceTree = "<group>"; };
+		1B98C0222AED60A60061EEB5 /* OtpRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpRowView.swift; sourceTree = "<group>"; };
+		1B98C0242AED61130061EEB5 /* OtpTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpTimeView.swift; sourceTree = "<group>"; };
+		1B98C0262AED6F640061EEB5 /* OtpItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpItem.swift; sourceTree = "<group>"; };
+		1B98C0282AED71050061EEB5 /* Otp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Otp.swift; sourceTree = "<group>"; };
+		1B98C02A2AED75E70061EEB5 /* OtpList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpList.swift; sourceTree = "<group>"; };
+		1BD592F22AEDAD9800B6788F /* OtpManualAddModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpManualAddModal.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B98C0092AED54AC0061EEB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B459C2A2AEE46BF007D0D07 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1B98C02A2AED75E70061EEB5 /* OtpList.swift */,
+				1B98C0242AED61130061EEB5 /* OtpTimeView.swift */,
+				1B98C0222AED60A60061EEB5 /* OtpRowView.swift */,
+				1B0052952AEDBECD00AD96A3 /* OtpRowDetailView.swift */,
+				1BD592F22AEDAD9800B6788F /* OtpManualAddModal.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1B459C2B2AEE46C6007D0D07 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B98C0262AED6F640061EEB5 /* OtpItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1B459C2C2AEE47A0007D0D07 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1B98C0282AED71050061EEB5 /* Otp.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		1B98C0032AED54AC0061EEB5 = {
+			isa = PBXGroup;
+			children = (
+				1B98C00E2AED54AC0061EEB5 /* OTPzer */,
+				1B98C00D2AED54AC0061EEB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B98C00D2AED54AC0061EEB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B98C00C2AED54AC0061EEB5 /* OTPzer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B98C00E2AED54AC0061EEB5 /* OTPzer */ = {
+			isa = PBXGroup;
+			children = (
+				1B459C2B2AEE46C6007D0D07 /* Models */,
+				1B459C2A2AEE46BF007D0D07 /* Views */,
+				1B459C2C2AEE47A0007D0D07 /* Util */,
+				1B98C00F2AED54AC0061EEB5 /* OTPzerApp.swift */,
+				1B98C0112AED54AC0061EEB5 /* ContentView.swift */,
+				1B98C0152AED54AD0061EEB5 /* Assets.xcassets */,
+				1B98C01A2AED54AD0061EEB5 /* OTPzer.entitlements */,
+				1B98C0172AED54AD0061EEB5 /* Preview Content */,
+			);
+			path = OTPzer;
+			sourceTree = "<group>";
+		};
+		1B98C0172AED54AD0061EEB5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1B98C0182AED54AD0061EEB5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B98C00B2AED54AC0061EEB5 /* OTPzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B98C01D2AED54AD0061EEB5 /* Build configuration list for PBXNativeTarget "OTPzer" */;
+			buildPhases = (
+				1B98C0082AED54AC0061EEB5 /* Sources */,
+				1B98C0092AED54AC0061EEB5 /* Frameworks */,
+				1B98C00A2AED54AC0061EEB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTPzer;
+			productName = OTPzer;
+			productReference = 1B98C00C2AED54AC0061EEB5 /* OTPzer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B98C0042AED54AC0061EEB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1B98C00B2AED54AC0061EEB5 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 1B98C0072AED54AC0061EEB5 /* Build configuration list for PBXProject "OTPzer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B98C0032AED54AC0061EEB5;
+			productRefGroup = 1B98C00D2AED54AC0061EEB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B98C00B2AED54AC0061EEB5 /* OTPzer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B98C00A2AED54AC0061EEB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B98C0192AED54AD0061EEB5 /* Preview Assets.xcassets in Resources */,
+				1B98C0162AED54AD0061EEB5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B98C0082AED54AC0061EEB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B98C0272AED6F640061EEB5 /* OtpItem.swift in Sources */,
+				1B98C0292AED71050061EEB5 /* Otp.swift in Sources */,
+				1B98C0122AED54AC0061EEB5 /* ContentView.swift in Sources */,
+				1B98C0232AED60A60061EEB5 /* OtpRowView.swift in Sources */,
+				1B98C0252AED61130061EEB5 /* OtpTimeView.swift in Sources */,
+				1BD592F32AEDAD9800B6788F /* OtpManualAddModal.swift in Sources */,
+				1B98C0102AED54AC0061EEB5 /* OTPzerApp.swift in Sources */,
+				1B0052962AEDBECD00AD96A3 /* OtpRowDetailView.swift in Sources */,
+				1B98C02B2AED75E70061EEB5 /* OtpList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B98C01B2AED54AD0061EEB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B98C01C2AED54AD0061EEB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1B98C01E2AED54AD0061EEB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = OTPzer/OTPzer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OTPzer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = OTPzer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.matteobertozzi.OTPzer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1B98C01F2AED54AD0061EEB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = OTPzer/OTPzer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OTPzer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = OTPzer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.matteobertozzi.OTPzer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B98C0072AED54AC0061EEB5 /* Build configuration list for PBXProject "OTPzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B98C01B2AED54AD0061EEB5 /* Debug */,
+				1B98C01C2AED54AD0061EEB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B98C01D2AED54AD0061EEB5 /* Build configuration list for PBXNativeTarget "OTPzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B98C01E2AED54AD0061EEB5 /* Debug */,
+				1B98C01F2AED54AD0061EEB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B98C0042AED54AC0061EEB5 /* Project object */;
+}
