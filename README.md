@@ -1,8 +1,15 @@
-# OTPzer
+# OTPzer App
+<img src="docs/assets/otpzer-logo-256.png" align="right" />
 
-Mac App to store and view OTP codes
+**MacOS App** to store and view OTP codes. \
+*(Compatibile with Google Authenticator Codes)*
 
-[![license](https://img.shields.io/github/license/matteobertozzi/yajbe-data-format)](LICENSE)
+[![license](https://img.shields.io/github/license/matteobertozzi/otpzer-app)](LICENSE)
+
+ * TOTP (Time-based one-time password) 30sec interval
+ * Scan a QR Code Image
+ * Add Manually the secret key
+ * Add Name and Notes to OTP codes
 
 #### OTP List
 <img src="docs/assets/otp-list.png" />
